@@ -1,6 +1,6 @@
 {
-  "name": "@prodbyeagle/eagle",
-  "version": "0.5.0",
+  "name": "@prodbyeagle/create-eagle-app",
+  "version": "0.6.9",
   "description": "Create an Custom NextJS installation. Curated for @prodbyeagle",
   "main": "dist/index.js",
   "bin": {
