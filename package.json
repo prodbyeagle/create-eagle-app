@@ -1,0 +1,28 @@
+{
+  "name": "@prodbyeagle/eagle",
+  "version": "0.5.0",
+  "description": "Create an Custom NextJS installation. Curated for @prodbyeagle",
+  "main": "dist/index.js",
+  "bin": {
+    "create-eagle-app": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "prodbyeagle",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "execa": "^9.5.2",
+    "fs-extra": "^11.3.0",
+    "prettier": "^3.4.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  },
+  "pnpm": {
+    "overrides": {}
+  }
+}
